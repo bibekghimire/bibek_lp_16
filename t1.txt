@@ -1,0 +1,41 @@
+'''
+checks wheather the number is ugly or not
+'''
+
+def is_prime(x):
+    if x==1: return False
+    for i in range(2,x//2+1):
+        if x%i==0:
+            return False
+    return True
+
+def get_factors(x,l=[]):
+    if is_prime(x):
+        l.append(x)
+        return l
+    for i in range(2,x//2+1):
+        if x%i==0:
+            l.append(i)
+            return get_factors(x//i,l)
+def is_ugly(x):
+    if x==1: return True
+    factors=get_factors(x,[])
+    print('all factors: ',factors)
+    for item in factors.copy():
+        if item in [2,3,5]:
+            factors.remove(item)
+        else:
+            pass
+    print('factors other than 2,3,5',factors)   
+    return  not bool(factors)
+
+def main():
+    c=eval(input('enter integer'))
+    if type(c)== type(0):
+        print('%s is an ugly number'%c) if is_ugly(c) else print('%s is not an ugly number'%c)
+    else:
+        print('%s is not an integer'%c)
+if __name__=='__main__':
+    while 1:
+        main()
+    
