@@ -1,0 +1,32 @@
+1. understanding client requirement 
+   The first important thing is finding the target audience
+   and gathering information of what actually audiance are looking for:
+	A good user interface creates an easy to navigate web site, and is the basis for this.
+for eg: in case of custom designed/printed T-shirt company
+   clients requirements are:
+		1. choose color of T-shirt
+		2. choose design of T-shirt
+		3. choose text character to be printed on T-shirt and location
+		4. choose image to print on the T-shirt and location at which image should be placed
+		5. custom logo of company
+		6. selecting one design from available common design provided by company
+2. planning:
+   using information gathered from above phase 1:
+	following requirements will be needed
+	a. font-end and back-end designer -2
+	b. QA 
+3. consulting with designers and decide what technology should be implemented.
+and the key factors are:
+	home page: home page should contain company name, logo, display space for latest fashion and most favourited design by customer
+	recomendation and new offers, festival discounts for regular and reputed customer
+
+5. exchanging idea with designers because customer needs and satisfaction are dynamic
+ so regularly be in touch with designers and ensuring that  wheather the final web site matched the needs and tast or not.
+6. after being noticed of successful design of website from designer, now the time is to view and testing  different test scenarios using different test cases
+7. ensuring its accessebility for large no of audiance as possible
+8. suggest any additional changes or correction need to be done for maximum functionality
+9. again testing and deliver it to the client after successful test
+10. maintinance and update for better performance and fulfilling dynamic needs of client
+
+
+

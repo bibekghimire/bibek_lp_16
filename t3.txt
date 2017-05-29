@@ -1,0 +1,15 @@
+test scenario for the given login page :
+
+1. validate the login page
+	Enter a valid username and password
+	Enter invalid credential
+	clear message of successful login and login failure
+	Reset your password
+	
+2. display * or other unique character to hide entered password
+3. Notification or auto blocking or other authintication option for entering 
+   invalid credential for certain no of time
+4. save username and password option for autologin next time
+5. for creating new user: Password length,combination of  character & number, uppercase and lowercase etc for strong password 
+
+ 
